@@ -1,0 +1,8 @@
+version = 0.1
+
+[staging.deploy.parameters]
+stack_name = "todo-list-aws-staging"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+resolve_s3 = true
+parameter_overrides = "Stage=staging"
